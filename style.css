@@ -1,0 +1,24 @@
+body,
+html {
+  background-color: black;
+  color: white;
+}
+
+canvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+#back,
+#front {
+  filter: blur(10px);
+  z-index: -1;
+}
+
+
+
+
+
+
