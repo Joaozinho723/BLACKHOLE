@@ -1,1 +1,63 @@
 
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com?plugins=forms,typography"></script>
+    <link rel="stylesheet" href="style.css">
+		<script src="https://unpkg.com/unlazy@0.11.3/dist/unlazy.with-hashing.iife.js" defer init></script>
+        <title>BLACKHOLE</title>
+        <link rel="shortcut icon" href="https://cdn-icons-png.flaticon.com/512/1534/1534073.png" type="image/x-icon">
+  </head>
+  <body>
+    <script src="main.js"></script>
+    <div class="hole fixed">
+        <canvas id="back"></canvas>
+        <canvas id="middle"></canvas>
+        <canvas id="front"></canvas>
+    </div>   
+
+
+
+
+    <div class="h-screen flex flex-col bg-background">
+    
+    <header class="bg-primary py-4 px-6 flex items-center justify-between">
+        <h1 class="text-primary-foreground text-lg font-extrabold">IA BLACKHOLE</h1>
+        <button class="text-primary-foreground">
+            <a href="index.html"><img aria-hidden="true" alt="settings" src="https://openui.fly.dev/openui/24x24.svg?text=⚙️" class="z-20 relative"/></a>
+        </button>
+    </header>
+
+<div class="flex-1 p-4 overflow-y-auto">
+    
+    <div class="flex justify-end items-center mb-4">
+        <div class="bg-white text-black rounded-lg py-2 px-4 max-w-xs">
+            <p>Olá! como pode me ajudar?</p>
+        </div>
+        <img aria-hidden="true" alt="user" src="https://openui.fly.dev/openui/40x40.svg?text=User" class="ml-2" />
+    </div>
+
+    
+    <div class="flex items-center mb-4">
+        <img aria-hidden="true" alt="bot" src="https://openui.fly.dev/openui/40x40.svg?text=Bot" class="mr-2" />
+        <div class="bg-secondary text-secondary-foreground rounded-lg py-2 px-4 max-w-xs border">
+            <p>Estou aqui para te ajudar com seus questionamentos.</p>
+        </div>
+    </div>
+    <div class="flex items-center mb-4">
+        <img aria-hidden="true" alt="bot" src="https://openui.fly.dev/openui/40x40.svg?text=Bot" class="mr-2" />
+        <div class="bg-secondary text-secondary-foreground rounded-lg py-2 px-4 max-w-xs border">
+            <p>...</p>
+        </div>
+    </div>
+</div>
+
+
+<div class="bg-primary p-4 flex items-center">
+    <input type="text" placeholder="Clique para escrever..." class="flex-1 bg-input text-black rounded-lg py-2 px-4 mr-2" />
+    <button class="bg-primary-foreground text-white px-4 py-2 rounded-lg border">Enviar</button>
+</div>
+</div>
+  </body>
+</html>
